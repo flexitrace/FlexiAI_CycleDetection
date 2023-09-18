@@ -3,6 +3,8 @@
 
 ### Custom ###
 .DS_Store
+__MACOSX
+outputs
 
 ### Python ###
 # Byte-compiled / optimized / DLL files
