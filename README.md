@@ -91,4 +91,3 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 - Make your changes.
 - Submit a pull request.
 
-> > > > > > > develop
