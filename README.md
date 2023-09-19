@@ -1,4 +1,4 @@
-<img src="https://flexitrace.com/images/IMG_082326-p-500.png" alt="Alt Text" width="100" height="100"> 
+<img src="https://flexitrace.com/images/IMG_082326-p-500.png" alt="Alt Text" width="100" height="100">
 
 # FlexiTrace Repetition Count
 
@@ -8,6 +8,7 @@ Our mission is to provide lab-quality movement analysis to your smartphone. We d
 Now we are analyzing movement patterns using the FlexiTrace app's dataset for motion analysis.
 
 ## Table of Contents
+
 - [Introduction](#introduction)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
@@ -22,20 +23,25 @@ This project explores the FlexiTrace dataset, which includes spatial coordinates
 ## Getting Started
 
 To get started, follow these steps:
+
 - Clone this repository
+
 ```bash
 git clone git@github.com:flexitrace/FlexiAI_CycleDetection.git && cd FlexiAI_CycleDetection
 ```
+
 - Install the required dependencies
+
 * For clean installation create a new environment and activate it
- ```bash
+
+```bash
 python3.8 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements/local.txt
- ```
-
+```
 
 ## Usage
+
 - Cycle Detection on Rotation matrix
 - Repetitions Cycle Duration
 - Repetitions Count
@@ -51,7 +57,6 @@ The `alljoint.csv` file provided for each dataset sample includes the parameters
 - **`Local_Position_x/y/z`**: Represents the local position coordinates (**x**, **y**, and **z**) of an object in the sample's local space.
 - **`World_Position_x/y/z`**: Indicates the world position coordinates (**x**, **y**, and **z**) of an object in the sample's global space.
 
-
 ## Results
 
 ### Visualizing 3D Joint Rotation Matrices for Hips Joint
@@ -61,14 +66,12 @@ I captured a square exercise using the FlexiTrace app and began evaluating the r
 <!-- ![Hips Joint Rotation Matrix](assets/rotation_matrix_hips_joint.png) -->
 <img src="assets/rotation_matrix_hips_joint.png" alt="Hips Joint Rotation Matrix" width="900" height="300">
 
-
 ### Detecting Repetition Cycles
 
 To identify repetition cycles, I used a difference calculation and detected peaks in the data. The GIF below illustrates the detected repetition cycle for the hips joint:
 
 <!-- ![Repetition Cycle GIF](assets/cycle_animation_with_plots.gif) -->
 <img src="assets/cycle_animation_with_plots.gif" alt="Repetition Cycle GIF" width="900" height="300">
-
 
 ### Applying the Method to All Transformation Matrix Indexes
 
@@ -77,16 +80,13 @@ I extended this method to all indexes of the transformation matrix and plotted t
 <!-- ![3x3 Repetition Results GIF](assets/hips_joint.gif) -->
 <img src="assets/hips_joint.gif" alt="3x3 Repetition Results GIF" width="900" height="300">
 
-
 By using this approach, I can accurately count the repetitions of an exercise.
 
 ## Contributing
 
 Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
+
 - Fork the repository.
 - Create a new branch for your feature or bug fix.
 - Make your changes.
 - Submit a pull request.
-
-
-
