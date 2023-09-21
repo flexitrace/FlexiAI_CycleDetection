@@ -1,7 +1,7 @@
 <!-- <img src="https://flexitrace.com/images/IMG_082326-p-500.png" alt="Alt Text" width="100" height="100"> -->
 
 # FlexiTrace Cycle Detection
-<a href="https://colab.research.google.com/drive/1jUpoqAf2t5UbK9rZvaSo1BtRFsqmZI9L?authuser=2"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
+<a href="https://colab.research.google.com/drive/1jUpoqAf2t5UbK9rZvaSo1BtRFsqmZI9L#scrollTo=LS96wzYmN1hU"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
 
 [FlexiTrace Sports Biomechanics](https://apps.apple.com/app/flexitrace-sports-biomechanics/id6462847881), an innovative markerless motion capture app, offers you a unique opportunity to delve into the captivating world of human movement analysis. With an extensive dataset featuring spatial coordinates and transformation matrices for 91 joints, meticulously captured through [ARKit’s body-tracking](https://developer.apple.com/documentation/arkit/arkit_in_ios/content_anchors/validating_a_model_for_motion_capture), FlexiTrace provides a gateway to explore real-life exercise data like never before. Our vision is to democratize [3D motion analysis](https://flexitrace.com/blog/physics-engine.html), making it accessible to all. By leveraging augmented reality and advanced computer vision, we transform your smartphone into a portable lab, enabling the analysis of your movement's depth and nuances. Join us as we decipher movement patterns within the FlexiTrace app's dataset, and embark on a journey to enhance your understanding and optimize your performance in the realm of human motion.
 
